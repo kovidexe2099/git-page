@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M.Kovid Sreshta</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #0B0F19;
+    color: #E5E7EB;
+}
+
+/* NAVBAR */
+nav {
+    margin: 20px;
+    padding: 15px 20px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    background: rgba(17, 24, 39, 0.8);
+    border: 1px solid #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background: #3B82F6;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.nav-links span {
+    margin: 0 10px;
+    color: #9CA3AF;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.pill {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: rgba(59,130,246,0.15);
+    color: #93C5FD;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.highlight {
+    color: #3B82F6;
+}
+
+.hero p {
+    margin-top: 15px;
+    color: #9CA3AF;
+}
+
+/* BUTTONS */
+.btns {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.primary {
+    background: #3B82F6;
+    color: white;
+}
+
+.primary:hover {
+    background: #2563EB;
+}
+
+.secondary {
+    border: 1px solid #1F2937;
+    color: #9CA3AF;
+}
+
+/* SECTIONS */
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+/* CARDS */
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 20px;
+    border: 1px solid #1F2937;
+    transition: 0.2s;
+}
+
+.card:hover {
+    border-color: #3B82F6;
+    transform: translateY(-3px);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.small {
+    color: #9CA3AF;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #6B7280;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <div class="logo">MKS</div>
+    <div class="nav-links">
+        <span>About</span>
+        <span>Skills</span>
+        <span>Focus</span>
+        <span>Contact</span>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="pill">● Building with logic, not noise</div>
+
+    <h1>
+        M.Kovid Sreshta<br>
+        <span class="highlight">Modern. System-Focused.</span>
+    </h1>
+
+    <p>
+        I am M.Kovid Sreshta, focused on understanding how systems actually work.
+        Currently building strength in Git workflows, Linux, C++, Data Structures,
+        and exploring Artificial Intelligence & Machine Learning alongside system-level thinking.
+    </p>
+
+    <div class="btns">
+        <a href="#focus" class="btn primary">See What I Work On</a>
+        <a href="https://github.com/kritt29" target="_blank" class="btn secondary">View GitHub</a>
+    </div>
+</div>
+
+<!-- FOCUS -->
+<div class="section" id="focus">
+    <h2>Current Focus</h2>
+
+    <div class="card">
+        <h3>01 Version Control Done Right</h3>
+        <p class="small">
+            Branching, merging, conflicts, and pull request workflows using Git effectively.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>02 Systems & OS Understanding</h3>
+        <p class="small">
+            Learning how memory, processes, and execution behave beneath code.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>03 Data Structures & Algorithms</h3>
+        <p class="small">
+            Strengthening problem solving through efficient data structures and algorithm design.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>04 AI & Machine Learning</h3>
+        <p class="small">
+            Exploring machine learning fundamentals and building a strong conceptual foundation.
+        </p>
+    </div>
+</div>
+
+<!-- SKILLS -->
+<div class="section">
+    <h2>Skills & Interests</h2>
+
+    <div class="card">
+        <p class="small">
+            C++ • Data Structures & Algorithms • Git • Linux • Problem Solving •
+            Systems Thinking • Artificial Intelligence • Machine Learning
+        </p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 M.Kovid Sreshta
+</footer>
+
+</body>
+</html>
